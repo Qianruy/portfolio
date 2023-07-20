@@ -23,7 +23,7 @@ const Routes = () => {
         <PoseGroup>
           <RouteContainer key={location.key}>
             <Switch location={location}>
-              <Route exact path="/" component={Portfolio} />
+              <Route path="/portfolio" component={Portfolio} />
               <Route path="/aboutme" component={AboutMe} />
               <Route path="/resume" component={Resume} />
               <Route path="/projects" component={Projects} />

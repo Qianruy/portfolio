@@ -106,13 +106,13 @@ const ownerHeader = [
   { as: Link,
     content: "Qianru Yu",
     key: "home",
-    to: "/" }
+    to: "/portfolio" }
 ];
 const portfolioNavItems = [
   { as: Link,
     content: "<Home/>",
     key: "home",
-    to: "/" },
+    to: "/portfolio" },
   { as: NavLink,
     content: "<Resume/>",
     key: "Resume",
