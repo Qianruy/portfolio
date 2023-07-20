@@ -13,13 +13,13 @@ const Projects = () => (
     </Header>
     <div class="ui two stackable cards">
       <Card 
-        rel=""
+        rel="https://github.gatech.edu/ApartmentRecommend"
         header="Apartment Recommendation Platform"
         category="Full Stack Development"
         description="Built an interactive website for apartment recommendations with multiple factors to be taken into consideration."
       />
       <Card 
-        rel=""
+        rel="https://github.gatech.edu/coffeeChat"
         header="Coffee Chat Social Application"
         category="Web Development"
         description="Built the application for making new friends at coffee shops with responsive frontend design and robust backend functionality. Integrate location-based services to display nearby coffee shops or drink stations."

@@ -64,8 +64,8 @@ const Portfolio = () => (
           padding: "2em",
           lineHeight: "1.5",
           color: "#8892b0",
-          paddingLeft: "10em", 
-          paddingRight: "10em",
+          paddingLeft: "12%", 
+          paddingRight: "12%",
         }}>
         <p>
           I'm currently enrolled in <span style={{color:"#64ffda"}}>Georgia Tech</span> and will be graduated Fall 2023. I enjoy <span style={{color:"#64ffda"}}>exploring</span> new techniques 
