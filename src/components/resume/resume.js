@@ -35,7 +35,7 @@ const Resume = () => (
             endYear="Dec 2023"
             schoolName="Georgia Institute of Technology"
             schoolDescription="MS in Computational Science and Engineering; GPA: 4.0/4.0"
-            addtional1="CS Courses: High Perform Computing/Arch, Computer Networking, Object Orient Programming, Algorithms, Big Data Sys & Analytics"
+            addtional1="CS Courses: High Perform Computing/Arch, Computer Networking, Object Orient Programming, Algorithms, Big Data Sys & Analytics, Database System Implementation"
             addtional2="Math Courses: Numerical Linear Algebra, Machine Learning, Adv Statistical Modeling, Nonparametric Data Analysis"
           />
           <Education
@@ -102,6 +102,10 @@ const Resume = () => (
             progress={80}
             color="green" />
           <Skills
+            skill="SQL"
+            progress={85}
+            color="green" />
+          <Skills
             skill="Java"
             progress={70}
             color="blue" />
@@ -111,6 +115,10 @@ const Resume = () => (
             color="blue" />
           <Skills
             skill="React"
+            progress={60}
+            color="blue" />
+          <Skills
+            skill="PostgreSQL"
             progress={60}
             color="blue" />
           <Skills

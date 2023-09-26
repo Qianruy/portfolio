@@ -80,7 +80,7 @@ const Portfolio = () => (
           color: "#8892b0" 
         }}>
         <SplitText initialPose="exit" pose="enter" charPoses={charSkills}>
-              React | Redux | JavaScript | NodeJS | Express | MongoDB
+              React | Redux | JavaScript | NodeJS | Express | PostgreSQL
         </SplitText>
       </Grid.Row>
       <Grid.Row columns={1} style={{ background: "#0d223b" }}>

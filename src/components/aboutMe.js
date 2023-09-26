@@ -31,16 +31,21 @@ const aboutMe = () => (
               /* -- About Me -- */
             <br />
             <br />
-              Paragraph 1
+              Nice to meet U!
           </p>
           <p>
-              Paragraph 2
+              My name is Qianru (which pronuounce like tsing-ru). I enjoy the sense of fulfillment in making meaningful difference using the 
+              power of coding and other technologies. In my leisure time, I like to play puzzle games which help alleviate stress and get me relaxed.
+
           </p>
           <p>
-              Paragraph 3
+              I firmly believe that our persistent efforts pave the way for our dreams to become a reality. Therefore, I'm continually eager to 
+              explore new topics and challenges, finding motivation in the face of adversity to propel me forward.
+        
           </p>
           <p>
-              Paragraph 4
+              Besides continuous learning, I love travelling! I have been to France, Hungary, Czech, Germany, Canada...
+              I would like to share interesting people and things I met during the trip :) 
           </p>
         </Paragraph>
       </div>
