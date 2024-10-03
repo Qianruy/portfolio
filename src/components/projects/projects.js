@@ -13,16 +13,14 @@ const Projects = () => (
     </Header>
     <div class="ui two stackable cards">
       <Card 
-        rel="https://github.gatech.edu/ApartmentRecommend"
-        header="Apartment Recommendation Platform"
-        category="Full Stack Development"
-        description="Built an interactive website for apartment recommendations with multiple factors to be taken into consideration."
+        header="Parallel Iterative CIOQ Switching Algorithms for Scalable Datacenter"
+        category="Algorithm Development"
+        description="Improving time complexity and QoS for high-radix switches and routers."
       />
       <Card 
-        rel="https://github.gatech.edu/coffeeChat"
-        header="Coffee Chat Social Application"
-        category="Web Development"
-        description="Built the application for making new friends at coffee shops with responsive frontend design and robust backend functionality. Integrate location-based services to display nearby coffee shops or drink stations."
+        header="A Novel Erasure Code for Video Streaming"
+        category="Coding Theory"
+        description="Working on a novel coding scheme for one-to-many streaming applications to achieve low latency and low decoding overheads."
       />
     </div>
     <div class="ui two stackable cards">

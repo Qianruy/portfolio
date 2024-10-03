@@ -20,20 +20,24 @@ const socialNetwork = () => (
             <Button color="linkedin" href="https://www.linkedin.com/in/qianru-yu-639a581ba/" >
               <Icon name="linkedin" /> LinkedIn
             </Button>
-            <Button color="purple" href="https://www.instagram.com/chloe_qianru/" >
+            <Button color="purple" href="" >
               <Icon name="instagram" /> Instagram
             </Button>
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
           <Grid.Column only="tablet mobile"><Button
-              href="https://github.com/Qianruy" circular color="grey"
+              href="https://github.com/Qianruy" 
+              circular color="grey"
               icon="github" />
             <Button
-              href="https://www.linkedin.com/in/qianru-yu-639a581ba/" circular color="blue"
+              href="https://www.linkedin.com/in/qianru-yu-639a581ba/" 
+              circular color="blue"
               icon="linkedin" />
             <Button
-              href="https://www.instagram.com/chloe_qianru/" circular color="purple"
+              // href="https://www.instagram.com/chloe_qianru/" 
+              href="" 
+              circular color="purple"
               icon="instagram" />
           </Grid.Column>
         </Grid.Row>

@@ -55,7 +55,7 @@ const Portfolio = () => (
           lineHeight: "1"
         }}>
         <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
-          Seeking Software Development Roles
+          Welcome to My Web Page!
         </SplitText>
       </Grid.Row>
       <Grid.Row
@@ -68,8 +68,10 @@ const Portfolio = () => (
           paddingRight: "12%",
         }}>
         <p>
-          I'm currently enrolled in <span style={{color:"#64ffda"}}>Georgia Tech</span> and will be graduated Fall 2023. I enjoy <span style={{color:"#64ffda"}}>exploring</span> new techniques 
-          and  <span style={{color:"#64ffda"}}>stay connected</span> with new findings which astonish me. Can't wait to start my journey in Tech!
+          I'm currently enrolled as a first-year Ph.D. student at <span style={{color:"#64ffda"}}>Georgia Tech</span> in Computer Science. I enjoy <span style={{color:"#64ffda"}}>exploring</span> new techniques 
+          and  <span style={{color:"#64ffda"}}>stay connected</span> with new findings. My research focus on networking and systems, especially in 
+          the switching algorithms and practical channel codes which aims at improving real-time performance for communication. Aside from this, I am also interested
+          in cyber securities and cryptography. Hope to find some interesting problems related to work on in the future!
         </p>
       </Grid.Row>
       <Grid.Row
@@ -80,7 +82,7 @@ const Portfolio = () => (
           color: "#8892b0" 
         }}>
         <SplitText initialPose="exit" pose="enter" charPoses={charSkills}>
-              React | Redux | JavaScript | NodeJS | Express | PostgreSQL
+              Networking & Systems | Control System | Algorithmics | High Performance Computing
         </SplitText>
       </Grid.Row>
       <Grid.Row columns={1} style={{ background: "#0d223b" }}>
@@ -91,7 +93,7 @@ const Portfolio = () => (
           href="https://www.linkedin.com/in/qianru-yu-639a581ba/" circular color="blue"
           icon="linkedin" />
         <Button
-          href="https://www.instagram.com/chloe_qianru/" circular color="purple"
+          href="" circular color="purple"
           icon="instagram" />
       </Grid.Row>
     </Grid>

@@ -31,6 +31,12 @@ const Resume = () => (
             <Header.Content>Education</Header.Content>
           </Header>
           <Education
+            startYear="Aug 2024"
+            endYear="Unknown"
+            schoolName="Georgia Institute of Technology"
+            schoolDescription="Ph.D. in Computer Science"
+          />
+          <Education
             startYear="Jan 2022"
             endYear="Dec 2023"
             schoolName="Georgia Institute of Technology"
@@ -85,9 +91,9 @@ const Resume = () => (
             as="h2" textAlign="center" style={{ fontSize: "32px",
               color: "#ececec" }}>
             <i className="code icon"></i>
-            <Header.Content href="/projects">Projects</Header.Content>
+            <Header.Content href="/projects">Research Projects</Header.Content>
           </Header>
-          <Header
+          {/* <Header
             as="h2" textAlign="center" style={{ fontSize: "32px",
               color: "#ececec" }}>
             <i className="code icon"></i>
@@ -132,7 +138,7 @@ const Resume = () => (
           <Skills
             skill="MongoDB"
             progress={50}
-            color="red" />
+            color="red" /> */}
         </Grid.Column>
       </Grid.Row>
     </Grid>
