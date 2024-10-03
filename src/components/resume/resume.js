@@ -93,7 +93,7 @@ const Resume = () => (
             as="h2" textAlign="center" style={{ fontSize: "32px",
               color: "#ececec" }}>
             <i className="code icon"></i>
-            <Header.Content href="/projects">Research Projects</Header.Content>
+            <Header.Content href="/portofoli/projects">Research Projects</Header.Content>
           </Header>
           {/* <Header
             as="h2" textAlign="center" style={{ fontSize: "32px",
