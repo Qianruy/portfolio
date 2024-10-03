@@ -69,9 +69,9 @@ const Portfolio = () => (
         }}>
         <p>
           I'm currently enrolled as a first-year Ph.D. student at <span style={{color:"#64ffda"}}>Georgia Tech</span> in Computer Science. I enjoy <span style={{color:"#64ffda"}}>exploring</span> new techniques 
-          and  <span style={{color:"#64ffda"}}>stay connected</span> with new findings. My research focus on networking and systems, especially in 
+          and  <span style={{color:"#64ffda"}}>stay connected</span> with new findings. My research focus on  <span style={{color:"#64ffda"}}>networking and systems</span>, especially in 
           the switching algorithms and practical channel codes which aims at improving real-time performance for communication. Aside from this, I am also interested
-          in cyber securities and cryptography. Hope to find some interesting problems related to work on in the future!
+          in <span style={{color:"#64ffda"}}>cyber securities and cryptography</span>. Hope to find some interesting problems related to work on in the future!
         </p>
       </Grid.Row>
       <Grid.Row

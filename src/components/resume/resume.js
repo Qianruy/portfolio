@@ -35,6 +35,8 @@ const Resume = () => (
             endYear="Unknown"
             schoolName="Georgia Institute of Technology"
             schoolDescription="Ph.D. in Computer Science"
+            addtional1="Advisor: Jun (Jim) Xu"
+            addtional2="Research Focus: Networking and Systems, High Performance Computing"
           />
           <Education
             startYear="Jan 2022"

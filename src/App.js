@@ -122,7 +122,7 @@ const portfolioNavItems = [
     key: "About Me",
     to: "/aboutMe" },
   { as: NavLink,
-    content: "<Projects/>",
+    content: "<Research/>",
     key: "Projects",
     to: "/projects" },
 ];

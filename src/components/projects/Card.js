@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PersonImage from "/Users/qianru/Documents/React-Portfolio/src/components/assets/person.png";
+import PersonImage from "../assets/person.png";
 
 class Card extends Component {
 	render() {
