@@ -42,7 +42,7 @@ const Portfolio = () => (
               fontSize: "20px", 
               color: "#64ffda" 
             }}> 
-              Hi, my name is
+              Hi, this is
           </span>
           <Header.Content className="author-name">Qianru Yu</Header.Content>
         </Header>
@@ -64,14 +64,38 @@ const Portfolio = () => (
           padding: "2em",
           lineHeight: "1.5",
           color: "#8892b0",
-          paddingLeft: "12%", 
-          paddingRight: "12%",
+          paddingLeft: "20%", 
+          paddingRight: "20%",
         }}>
         <p>
-          I'm currently enrolled as a first-year Ph.D. student at <span style={{color:"#64ffda"}}>Georgia Tech</span> in Computer Science. I enjoy <span style={{color:"#64ffda"}}>exploring</span> new techniques 
-          and  <span style={{color:"#64ffda"}}>stay connected</span> with new findings. My research focus on  <span style={{color:"#64ffda"}}>networking and systems</span>, especially in 
-          the switching algorithms and practical channel codes which aims at improving real-time performance for communication. Aside from this, I am also interested
-          in <span style={{color:"#64ffda"}}>cyber securities and cryptography</span>. Hope to find some interesting problems related to work on in the future!
+          I am a second-year Ph.D. student at <span style={{color:"#64ffda"}}>Georgia Tech</span> in Computer Science. My research interest expands in designing <span style={{color:"#64ffda"}}>algorithmic solutions</span> for <span style={{color:"#64ffda"}}>large-scale systems</span> - spanning switching (bipartite matching), channel coding, graph-based decoding algorithms, hashing, and probabilistic/randomized data structures - to improve <span style={{color:"#64ffda"}}>throughput, reliability, and latency</span> in modern communication and computing infrastructures.
+          </p>
+      </Grid.Row>
+      <Grid.Row
+        columns={1} style={{
+          fontSize: "1.2em",
+          padding: "2em",
+          lineHeight: "1.5",
+          color: "#8892b0",
+          paddingLeft: "20%", 
+          paddingRight: "20%",
+        }}>
+        <p>
+          These algorithmic techniques power applications in <span style={{color:"#64ffda"}}>real-time streaming, datacenter networks, distributed AI training, cloud services, and wireless communication</span>. I am particularly interested in bridging the gap between theory and practice, creating solutions that are both mathematically rigorous and practically deployable in large-scale systems.
+        </p>
+      </Grid.Row>
+      <Grid.Row
+        columns={1} style={{
+          fontSize: "1.2em",
+          padding: "2em",
+          lineHeight: "1.5",
+          color: "#8892b0",
+          paddingLeft: "20%", 
+          paddingRight: "20%",
+        }}>
+        <p>
+          {/* Aside from this, I am also interested in <span style={{color:"#64ffda"}}>cyber securities and cryptography</span>. Hope to discover new research problems at the intersection of algorithms, data privacy in the future!  */}
+          I received my Matser's degree also at <span style={{color:"#64ffda"}}>Georgia Tech</span>, and completed my undergraduate studies at <span style={{color:"#64ffda"}}>Chu Kochen Honors College of Zhejiang University (ZJU-CKC)</span>. The background in this section is the rooftop of the old library at ZJU, a place where I spent much of my time. 
         </p>
       </Grid.Row>
       <Grid.Row
@@ -82,7 +106,7 @@ const Portfolio = () => (
           color: "#8892b0" 
         }}>
         <SplitText initialPose="exit" pose="enter" charPoses={charSkills}>
-              Networking & Systems | Control System | Algorithmics | High Performance Computing
+              Networking & Systems | Algorithmics | Channel Coding | Hashing & Probabilistic Data Structures
         </SplitText>
       </Grid.Row>
       <Grid.Row columns={1} style={{ background: "#0d223b" }}>

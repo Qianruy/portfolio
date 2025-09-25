@@ -31,25 +31,23 @@ const aboutMe = () => (
               /* -- About Me -- */
             <br />
             <br />
-              Nice to meet U!
+              Nice to meet U! This is Qianru (which pronuounce like tsing-ru).
           </p>
           <p>
-              My name is Qianru (which pronuounce like tsing-ru). I enjoy the sense of fulfillment in making meaningful difference using the 
-              power of coding and other technologies. In my leisure time, I like to play puzzle games which help alleviate stress and get me relaxed.
-
+            Lately, I have rediscovered the joy of reading, exploring fascinating stories and ideas — from emotional regulation and its connection to brain science, to reflections on historical events and their lessons. I also enjoy mystery and detective fiction, as well as classic Chinese martial arts (wuxia 武侠) novels, and would be glad to share thoughts with fellow readers. 
           </p>
           <p>
-              I firmly believe that our persistent efforts pave the way for our dreams to become a reality. Therefore, I'm continually eager to 
-              explore new topics and challenges, finding motivation in the face of adversity to propel me forward.
+            Outside of research, I stay active through various forms of exercise. Rather than treadmill running, I prefer functional and mobility-focused training that feels more dynamic and engaging.
+            {/* I enjoy the sense of fulfillment in making meaningful difference using the power of coding and other technologies, and I firmly believe that our persistent efforts pave the way for our dreams to become a reality. Therefore, I'm continually explore new topics and challenges, finding motivation in the face of adversity to propel me forward. */}
         
           </p>
           <p>
-              Besides continuous learning, I love travelling! I have been to France, Hungary, Czech, Germany, Canada...
-              I would like to share interesting people and things I met during the trip :) 
+              I also love traveling and cooking. I have been fortunate to visit France, Hungary, the Czech Republic, Germany, Canada, the United Arab Emirates, Thailand, and Cambodia, and I enjoy sharing stories of the people I met and the experiences I had along the way:) 
           </p>
         </Paragraph>
       </div>
     </Container>
+    
     <SocialNetwork />
   </Element>
 );

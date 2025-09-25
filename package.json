@@ -33,6 +33,6 @@
     "eslint-plugin-lodash": "2.4.4",
     "eslint-plugin-react": "7.1.0",
     "eslint-watch": "3.1.2",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }

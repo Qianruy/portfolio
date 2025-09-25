@@ -9,26 +9,33 @@ const Projects = () => (
     <Header
       as="h2" textAlign="center" style={{ color: "#ececec",
         fontSize: "40px", paddingBottom:"2em"}}>
-      <Header.Content>Projects</Header.Content>
+      <Header.Content>Research Projects</Header.Content>
     </Header>
     <div class="ui two stackable cards">
       <Card 
-        header="Parallel Iterative CIOQ Switching Algorithms for Scalable Datacenter"
-        category="Algorithm Development"
-        description="Improving time complexity and QoS for high-radix switches and routers."
+        header="PLOW: Error Correction Codes for Truly Real-time Streaming (Onging)"
+        category="Coding Theory"
+        description="Minimizing coding overhead and decoding latency has long been a critical challenge for real-time applications. Our novel coding scheme addresses this by combining digital fountain codes with a new technique proposed for data retrieval, enabling both low redundancy and fast recovery. Experiments show up to 80% lower latency and significantly reduced redundancy under both random and bursty loss, making the scheme well-suited for live video streaming and wireless communication."
       />
       <Card 
-        header="A Novel Erasure Code for Video Streaming"
-        category="Coding Theory"
-        description="Working on a novel coding scheme for one-to-many streaming applications to achieve low latency and low decoding overheads."
+        header="SW-EDF: A Single-Iteration Algorithm for Combined Input- and Output-Queued Switching"
+        category="Algorithm Development; Approximate Stable Marriage (Matching)"
+        description="How to design switches (and routers) that provide quality of service (QoS) guarantees, such as low transit (through the switch) delay for packets, has been a long-standing research problem. SW-EDF overcomes challenges in the input- and output-queued (CIOQ) switch architecture: It can compute, in a single low-complexity iteration, an 'approximate stable marriage' that allows for near-perfect OQ emulation, in terms of tardy (compared to OQ) rates and distribution of tardiness."
+        rel="https://ieeexplore.ieee.org/abstract/document/11038878"
       />
     </div>
     <div class="ui two stackable cards">
       <Card 
+        rel="https://ieeexplore.ieee.org/document/11120557"
+        header="QPS- Fit: An Efficient and Performant Parallel Algorithm for Hybrid Optical and Packet Switching"
+        category="Algorithm Development; Datacenter Networks"
+        description="The relentless growth of sizes and traffic volumes in data center networks (DCN) is posing a significant challenge on switching: A single giant switch in a modern flattened-topology DCN needs to direct terabits of traffic per second to hundreds of top-of-rack switches in a low latency of just a few milliseconds. Our proposed QPS-Fit overcomes the problem of expensive computation for on-demand hybrid (circuit and packet) switching schedulers, and computes high-quality on-demand schedules in a fully parallelizable way. According to our simulation, QPS-Fit achieves similar throughput utilization as BFF, the state-of-the-art on-demand hybrid switching scheduler, while being nearly 27x faster when running on 96 threads."
+      />
+      <Card 
         rel="https://github.gatech.edu/qyu87/cse6220project"
         header="Fraudulent User Detection based on Graph Neural Networks"
         category="Machine Learning"
-        description="Using review datasets of 1 million sizes to construct Multi-relation Graph. Adjust the number of layers, under-sampling ratio, and scaling values in the loss function to obtain the best and most robust model."
+        description="Developed a fraud detection framework by constructing a multi-relation graph from a dataset of 1 million reviews, capturing nuanced relationships among users and reviews. Explored and tuned hyperparameters, including network depth, under-sampling ratio, and loss scaling, to enhance robustness and generalization. Conducted a comparative study across three Graph Neural Network architectures, complemented by case analysis of easy, medium, and hard detection scenarios, which revealed model strengths, limitations, and actionable directions for future improvement."
       />
     </div>
     {/* <Project

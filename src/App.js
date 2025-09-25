@@ -118,13 +118,13 @@ const portfolioNavItems = [
     key: "Resume",
     to: "/resume" },
   { as: NavLink,
+  content: "<Research/>",
+  key: "Projects",
+  to: "/projects" },
+  { as: NavLink,
     content: "<About Me/>",
     key: "About Me",
     to: "/aboutMe" },
-  { as: NavLink,
-    content: "<Research/>",
-    key: "Projects",
-    to: "/projects" },
 ];
 
 const App = () => (
