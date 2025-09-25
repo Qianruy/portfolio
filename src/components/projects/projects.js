@@ -13,7 +13,7 @@ const Projects = () => (
     </Header>
     <div class="ui two stackable cards">
       <Card 
-        header="PLOW: Error Correction Codes for Truly Real-time Streaming (Onging)"
+        header="PLOW: Error Correction Codes for Truly Real-time Streaming (Ongoing)"
         category="Coding Theory"
         description="Minimizing coding overhead and decoding latency has long been a critical challenge for real-time applications. Our novel coding scheme addresses this by combining digital fountain codes with a new technique proposed for data retrieval, enabling both low redundancy and fast recovery. Experiments show up to 80% lower latency and significantly reduced redundancy under both random and bursty loss, making the scheme well-suited for live video streaming and wireless communication."
       />
